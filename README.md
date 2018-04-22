@@ -1,5 +1,5 @@
 # ConsoleMail
-Send embedded images using cids in an html email from the command line.  Compatible with apple mail and gmail.
+Send embedded images using cids in an html email from the command line.  Compatible with apple mail and gmail.  Written in c#.
 
 Sample Usage
 

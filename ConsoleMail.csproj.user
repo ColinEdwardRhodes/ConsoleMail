@@ -3,4 +3,20 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartArguments>-from alexc%40lollypop.org -to ColinRhodes%40mac.com -host lpf-server1-new -port 25 -subject "Test email" -html ..\..\test\test.html -image -filePath ..\..\test\rose.jpg -mimeType image/jpeg -identifier rose -image -filePath ..\..\test\lilly.jpg -mimeType image/jpeg -identifier lilly</StartArguments>
   </PropertyGroup>
+  <PropertyGroup>
+    <PublishUrlHistory>Releases\|publish\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
+  </PropertyGroup>
 </Project>

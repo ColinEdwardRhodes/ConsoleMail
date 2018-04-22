@@ -16,12 +16,16 @@ namespace ConsoleMail
         static void Main(string[] args)
         {
             Configuration config = CommandLineParser.Parse(args);
-            SmtpClient client = new SmtpClient(config.Host, config.Port);
 
-            MailMessage mail = CreateMailMessage(config);
-            mail.AlternateViews.Add(BuildHTMLMessage(config));
+            if (config != null)
+            {
+                SmtpClient client = new SmtpClient(config.Host, config.Port);
 
-            client.Send(mail);
+                MailMessage mail = CreateMailMessage(config);
+                mail.AlternateViews.Add(BuildHTMLMessage(config));
+
+                client.Send(mail);
+            }
         }
 
         /// <summary>

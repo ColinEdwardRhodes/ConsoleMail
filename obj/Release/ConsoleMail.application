@@ -7,14 +7,14 @@
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ConsoleMail.exe.manifest" size="3867">
+    <dependentAssembly dependencyType="install" codebase="ConsoleMail.exe.manifest" size="4269">
       <assemblyIdentity name="ConsoleMail.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WKu1SFPWOxtSlkHEfpinEKXjqzMn8AnMDciA6gsPsI8=</dsig:DigestValue>
+        <dsig:DigestValue>FgPpkc6Au5K4RyiOmAMhviYKPpVvtJyRfagI+ILujdc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

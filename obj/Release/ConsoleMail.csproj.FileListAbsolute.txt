@@ -8,3 +8,13 @@ C:\Users\user-101030\Source\Repos\ConsoleMail\bin\Release\ConsoleMail.exe.manife
 C:\Users\user-101030\Source\Repos\ConsoleMail\bin\Release\ConsoleMail.application
 C:\Users\user-101030\Source\Repos\ConsoleMail\obj\Release\ConsoleMail.exe.manifest
 C:\Users\user-101030\Source\Repos\ConsoleMail\obj\Release\ConsoleMail.application
+C:\Users\crhodes\Source\Repos\ConsoleMail\bin\Release\ConsoleMail.exe.config
+C:\Users\crhodes\Source\Repos\ConsoleMail\bin\Release\ConsoleMail.exe.manifest
+C:\Users\crhodes\Source\Repos\ConsoleMail\bin\Release\ConsoleMail.application
+C:\Users\crhodes\Source\Repos\ConsoleMail\bin\Release\ConsoleMail.exe
+C:\Users\crhodes\Source\Repos\ConsoleMail\bin\Release\ConsoleMail.pdb
+C:\Users\crhodes\Source\Repos\ConsoleMail\obj\Release\ConsoleMail.csproj.CoreCompileInputs.cache
+C:\Users\crhodes\Source\Repos\ConsoleMail\obj\Release\ConsoleMail.exe.manifest
+C:\Users\crhodes\Source\Repos\ConsoleMail\obj\Release\ConsoleMail.application
+C:\Users\crhodes\Source\Repos\ConsoleMail\obj\Release\ConsoleMail.exe
+C:\Users\crhodes\Source\Repos\ConsoleMail\obj\Release\ConsoleMail.pdb

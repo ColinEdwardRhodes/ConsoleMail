@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConsoleMail.exe" size="10760">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConsoleMail.exe" size="10784">
       <assemblyIdentity name="ConsoleMail" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>w1zd/VaFKip7KO540uIi7+Vg28IuYFX7zYg67C4SU4k=</dsig:DigestValue>
+        <dsig:DigestValue>xUYdezXHcwucE9gzd640dtE0aV8tl8Y47GgZXnH7JTI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,13 +62,22 @@
       <dsig:DigestValue>1NgAxCSw4ibTXzWVy7D6Rw60Qih4Dn37KvGhG5Ora/s=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="test\test.html" size="422">
+  <file name="Releases\ConsoleMail.exe" size="9728">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>2eobqZJH4Osxl/HOzL18kT6NF1Krhrah0d8K2ONHQZU=</dsig:DigestValue>
+      <dsig:DigestValue>pu2fVMEu/NjtGvyBpgeFxcykQGMj9+x5EBo9iahybuU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="test\test.html" size="448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lleLPfepAlQ73cE95Gbaoe2BAvpC0FTzmHEA33+Xsq8=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

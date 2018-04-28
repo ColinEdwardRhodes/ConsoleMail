@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConsoleMail.exe" size="10784">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConsoleMail.exe" size="10760">
       <assemblyIdentity name="ConsoleMail" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xUYdezXHcwucE9gzd640dtE0aV8tl8Y47GgZXnH7JTI=</dsig:DigestValue>
+        <dsig:DigestValue>N63nMhFoHbAt4HDWscype+jeumr/m4uu24VE7wv/zdU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -68,7 +68,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>pu2fVMEu/NjtGvyBpgeFxcykQGMj9+x5EBo9iahybuU=</dsig:DigestValue>
+      <dsig:DigestValue>FFA/kRV05txeItQEEw33p2I0Zq1vrZPIrojuo5IIjeo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="test\test.html" size="448">

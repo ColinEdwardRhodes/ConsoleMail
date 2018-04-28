@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>-from alexc%40lollypop.org -to ColinRhodes%40mac.com -host lpf-server1-new -port 25 -subject "Test email" -html ..\..\test\test.html -image -filePath ..\..\test\rose.jpg -mimeType image/jpeg -identifier rose -image -filePath ..\..\test\lilly.jpg -mimeType image/jpeg -identifier lilly</StartArguments>
+    <StartArguments>-from alexc%40lollypop.org -to crhodes%40lollypop.org -host lpf-server1-new -port 25 -subject "Test email" -html ..\..\test\test.html -image -filePath ..\..\test\rose.jpg -mimeType image/jpeg -identifier rose -image -filePath ..\..\test\lilly.jpg -mimeType image/jpeg -identifier lilly</StartArguments>
   </PropertyGroup>
   <PropertyGroup>
     <PublishUrlHistory>Releases\|publish\</PublishUrlHistory>

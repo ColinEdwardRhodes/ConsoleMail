@@ -91,7 +91,7 @@ namespace ConsoleMail
                 Console.WriteLine("-image start a new image, do this once for each image you want to add");
                 Console.WriteLine("       and follow with -filePath -mimeType -identifier for each image");
                 Console.WriteLine("-filePath path to next image");
-                Console.WriteLine("-mimeType mimetype of next image (i.e. image/jpeg");
+                Console.WriteLine("-mimeType mimetype of next image (i.e. image/jpeg)");
                 Console.WriteLine("-identifier CID for next image");
                 result = null;
             }

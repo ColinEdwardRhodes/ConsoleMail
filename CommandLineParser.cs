@@ -53,6 +53,12 @@ namespace ConsoleMail
                             result.HtmlFile = args[pos];
                             break;
                         case "-image":
+
+                            if (currentAttachment != null)
+                            {
+                                result.ImageAttachments.Add(currentAttachment);
+                            }
+
                             currentAttachment = new ImageAttachment();
                             pos--;
                             break;
@@ -66,11 +72,11 @@ namespace ConsoleMail
                             currentAttachment.Identifier = args[pos];
                             break;
                     }
+                }
 
-                    if (currentAttachment != null)
-                    {
-                        result.ImageAttachments.Add(currentAttachment);
-                    }
+                if (currentAttachment != null)
+                {
+                    result.ImageAttachments.Add(currentAttachment);
                 }
             }
             catch (Exception)

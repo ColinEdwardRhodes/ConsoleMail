@@ -1,6 +1,6 @@
 bin\Debug\ConsoleMail.exe ^
 -from donotreply@lollypop.org ^
--to alexc@lollypop.org ^
+-to crhodes@lollypop.org ^
 -host lpf-server1-new ^
 -port 25 ^
 -subject "Daily save rate" ^

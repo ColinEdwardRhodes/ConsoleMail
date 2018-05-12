@@ -18,5 +18,6 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
+    <StartArguments>-from donotreply%40lollypop.org -to crhodes%40lollypop.org -host lpf-server1-new -port 25 -subject "Test email" -html ..\..\test\test.html -image -filePath ..\..\test\rose.jpg -mimeType image/jpeg -identifier rose.jpg%40lollypop.org -image -filePath ..\..\test\lilly.jpg -mimeType image/jpeg -identifier lilly.jpg%40lollypop.org</StartArguments>
   </PropertyGroup>
 </Project>

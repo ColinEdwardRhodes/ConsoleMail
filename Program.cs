@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Net.Mail;
 using System.Net.Mime;
 
@@ -15,17 +16,28 @@ namespace ConsoleMail
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Configuration config = CommandLineParser.Parse(args);
+            var result = -1;
 
-            if (config != null)
+            try
             {
-                SmtpClient client = new SmtpClient(config.Host, config.Port);
+                Configuration config = CommandLineParser.Parse(args);
 
-                MailMessage mail = CreateMailMessage(config);
-                mail.AlternateViews.Add(BuildHTMLMessage(config));
+                if (config != null)
+                {
+                    SmtpClient client = new SmtpClient(config.Host, config.Port);
 
-                client.Send(mail);
+                    MailMessage mail = CreateMailMessage(config);
+                    mail.AlternateViews.Add(BuildHTMLMessage(config));
+
+                    client.Send(mail);
+                    result = 0;
+                }
+            } catch (Exception ex)
+            {
+                Console.WriteLine($"An error has occured: {ex.ToString()}");
             }
+
+            Environment.Exit(result);
         }
 
         /// <summary>

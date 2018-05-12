@@ -31,7 +31,7 @@ The mail subject line
 
 Path to a HTML file containing image tags with CIDs in them.  Typically this will look like:
 
-<img src="cid:allRunningYearSaveRate.png@lollypop.org" />
+`<img src="cid:allRunningYearSaveRate.png@lollypop.org" />`
 
 ## -image
 

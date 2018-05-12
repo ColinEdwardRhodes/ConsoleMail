@@ -83,7 +83,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Releases\ConsoleMail.exe" />
+    <AdditionalFiles Include="Releases\ConsoleMail.exe" />
+    <Content Include="test\lilly.jpg" />
+    <Content Include="test\rose.jpg" />
     <Content Include="test\test.html" />
   </ItemGroup>
   <ItemGroup>

@@ -38,7 +38,7 @@ namespace ConsoleMail
                             result.FromAddress = args[pos];
                             break;
                         case "-to":
-                            result.ToAddress = args[pos];
+                            result.ToAddress.Add(args[pos]);
                             break;
                         case "-host":
                             result.Host = args[pos];

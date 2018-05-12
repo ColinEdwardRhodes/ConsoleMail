@@ -57,7 +57,7 @@ namespace ConsoleMail
                 Subject = config.Subject
             };
 
-            mail.To.Add(config.ToAddress);
+            config.ToAddress.ForEach(x => mail.To.Add(x));
             return mail;
         }
 

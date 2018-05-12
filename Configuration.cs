@@ -14,6 +14,7 @@ namespace ConsoleMail
         internal Configuration()
         {
             ImageAttachments = new List<ImageAttachment>();
+            ToAddress = new List<string>();
         }
 
         /// <summary>
@@ -65,7 +66,7 @@ namespace ConsoleMail
         /// <summary>
         /// To address
         /// </summary>
-        public string ToAddress { get; internal set; }
+        public List<string> ToAddress { get; internal set; }
 
         /// <summary>
         /// Mail subject
